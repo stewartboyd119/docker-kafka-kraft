@@ -1,6 +1,6 @@
 # Docker Kafka Kraft
 
-![Build and Push Status](https://github.com/moeenz/docker-kafka-kraft/actions/workflows/ci.yml/badge.svg?branch=master)
+Forked from [moeenz/docker-kafka-kraft](https://github.com/moeenz/docker-kafka-kraft) so version could be updated
 
 Apache Kafka Docker image using using Kafka Raft metadata mode (KRaft). In KRaft the Kafka metadata information will be stored as a partition within Kafka itself. There will be a KRaft Quorum of controller nodes which will be used to store the metadata. The metadata will be stored in an internal Kafka topic `@metadata`.
 
